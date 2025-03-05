@@ -9,10 +9,10 @@ terraform {
   }
   backend "remote" {
     hostname     = "app.terraform.io"
-    organization = ""
+    organization = "cloudzap"
 
     workspaces {
-      name = ""
+      name = "yt-terraform-intro-dev"
     }
   }
 }
